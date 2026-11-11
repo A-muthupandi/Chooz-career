@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChoozCareer - Career Roadmap</title>
+    <link rel="stylesheet" href="/Css/nav.css">
+    <link rel="stylesheet" href="/Css/footer.css">
+    <link rel="stylesheet" href="/Css/career.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="name">Chooz<span class="career">Career</span></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="/Pages/explore.html">Explore Career</a></li>
+                <li><a href="/Pages/about.html">About</a></li>
+                <li class="theme-toggle-item">
+                    <button class="theme-switch" id="globalThemeBtn" onclick="toggleTheme()"
+                        aria-label="Toggle dark and light mode">
+                        <div class="switch-track">
+                            <svg class="icon icon-sun" xmlns="http://w3.org" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <path
+                                    d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41">
+                                </path>
+                            </svg>
+                            <svg class="icon icon-moon" xmlns="http://w3.org" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                            </svg>
+                            <div class="switch-knob"></div>
+                        </div>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="roadmap-header">
+            <h1>Career Roadmap: UI/UX Designer</h1>
+        </div>
+        <div class="overview-box">
+            <strong>Core Overview:</strong> Conducts user research, maps intuitive user journeys, crafts accessible visual interfaces, and builds interactive prototypes.
+        </div>
+        <h3 class="section-heading">Core Skillsets </h3>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4>1) UX Research</h4>
+                <p>User Interviews, Usability Testing, Wireframing</p>
+            </div>
+            <div class="skill-card">
+                <h4>2) Visual UI</h4>
+                <p>Typography, Color Theory, Design Systems</p>
+            </div>
+            <div class="skill-card">
+                <h4>3) Tools</h4>
+                <p>Figma, Auto Layout, Interactive Prototyping</p>
+            </div>
+            <div class="skill-card">
+                <h4>4) Soft Skills</h4>
+                <p>User Empathy, Design Critique, Developer Handoff</p>
+            </div>
+        </div>
+        <h3 class="section-heading">Career Progression Tiers</h3>
+        <div class="tier-flow">
+            <div class="tier-node">Junior UI/UX Designer</div>
+            <div class="tier-arrow">&rarr;</div>
+            <div class="tier-node">Senior Product Designer</div>
+            <div class="tier-arrow">&rarr;</div>
+            <div class="tier-node">Head of Design / VP of UX</div>
+        </div>
+        <h3 class="section-heading">Execution Learning Roadmap</h3>
+        <div class="timeline">
+            <div class="timeline-step">
+                <h4>1) Design Principles & Core Visual Hierarchy</h4>
+                <p>Master layout grids, color contrast, typography, and UX heuristics.</p>
+            </div>
+            <div class="timeline-step">
+                <h4>2) Wireframing, Prototyping & Usability Testing</h4>
+                <p>Build component libraries in Figma and validate user flows with real users.</p>
+            </div>
+            <div class="timeline-step">
+                <h4>3) Design Systems & Portfolio Case Studies</h4>
+                <p>Scale multi-platform design tokens and publish end-to-end UX case studies.</p>
+            </div>
+        </div>
+        <h3 class="section-heading">Top Learning Links</h3>
+        <ul class="links-list">
+            <li><a href="https://nngroup.com" target="_blank">Nielsen Norman Group (NN/g) UX Articles</a></li>
+            <li><a href="https://figma.com" target="_blank">Figma Learn & Design Systems Guide</a></li>
+            <li><a href="https://roadmap.sh" target="_blank">Roadmap.sh UX Design Vectors</a></li>
+        </ul>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section footer-brand">
+                <h3>ChoozCareer</h3>
+                <p>Helping students find their passion, one milestone at a time.</p>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#careers">Career Paths</a></li>
+                    <li><a href="#blog">Resources & Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-info" id="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:alphaxheroes@gmail.com">alphaxheroes@gmail.com</a></p>
+                <p>Hours: Mon - Fri, 9:00 AM - 5:00 PM</p>
+            </div>
+
+            <div class="footer-section footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to get the latest career insights.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" onclick="notify_me()">Join</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 ChoozCareer. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#privacy">Privacy Policy</a> |
+                <a href="#terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/Js/script.js">
+    </script>
+</body>
+
+</html>

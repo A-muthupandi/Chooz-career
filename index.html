@@ -18,8 +18,7 @@
             <li><a href="/Pages/explore.html">Explore Career</a></li>
             <li><a href="/Pages/about.html">About</a></li>
             <li class="theme-toggle-item">
-                <button class="theme-switch" id="globalThemeBtn" onclick="toggleTheme()"
-                    aria-label="Toggle dark and light mode">
+                <button class="theme-switch" id="globalThemeBtn" onclick="toggleTheme()">
                     <div class="switch-track">
                         <svg class="icon icon-sun" xmlns="http://w3.org" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -49,29 +48,23 @@
     <section class="slider-section">
         <div class="slider-container">
             <button class="slider-btn prev-btn" onclick="changeSlide(-1)">&#10094;</button>
-
             <div class="slide active">
-                <div class="slide-num">1</div>
                 <img src="/assets/software_engineer.jfif" alt="">
                 <div class="slide-caption">Software Engineer</div>
             </div>
             <div class="slide">
-                <div class="slide-num">2</div>
                 <img src="/assets/data_science.jfif" alt="">
                 <div class="slide-caption">Data Scientist</div>
             </div>
             <div class="slide">
-                <div class="slide-num">3</div>
                 <img src="/assets/digital_marketing.jfif" alt="">
                 <div class="slide-caption">Digital Marketer</div>
             </div>
             <div class="slide">
-                <div class="slide-num">4</div>
                 <img src="/assets/ui-ux.jfif" alt="">
                 <div class="slide-caption">UI/UX Designer</div>
             </div>
             <div class="slide">
-                <div class="slide-num">5</div>
                 <img src="/assets/product_manager.jfif" alt="">
                 <div class="slide-caption">Product Manager</div>
             </div>
@@ -138,7 +131,7 @@
 
         <div class="footer-section contact-info" id="contact-info">
             <h3>Contact Us</h3>
-            <p>Email: <a href="mailto:alphaxheroes@gmail.com">alphaxheroes@gmail.com</a></p>
+            <p>Email: <a href="mailto:choozcareer@gmail.com">choozcareer@gmail.com</a></p>
             <p>Hours: Mon - Fri, 9:00 AM - 5:00 PM</p>
         </div>
 
@@ -147,7 +140,7 @@
             <p>Subscribe to get the latest career insights.</p>
             <form class="newsletter-form">
                 <input type="email" placeholder="Your email address" required>
-                <button type="submit">Join</button>
+                <button type="submit" onclick="notify_me()">Join</button>
             </form>
         </div>
     </div>

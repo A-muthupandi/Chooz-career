@@ -36,3 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedThemeActive = localStorage.getItem('theme') === 'dark';
     updateSwitchUI(savedThemeActive);
 });
+
+function notify_me() {
+    alert("message has sent");
+}

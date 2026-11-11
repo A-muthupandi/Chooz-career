@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChoozCareer - Career Roadmap</title>
+    <link rel="stylesheet" href="/Css/nav.css">
+    <link rel="stylesheet" href="/Css/footer.css">
+    <link rel="stylesheet" href="/Css/career.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="name">Chooz<span class="career">Career</span></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="/Pages/explore.html">Explore Career</a></li>
+                <li><a href="/Pages/about.html">About</a></li>
+                <li class="theme-toggle-item">
+                    <button class="theme-switch" id="globalThemeBtn" onclick="toggleTheme()"
+                        aria-label="Toggle dark and light mode">
+                        <div class="switch-track">
+                            <svg class="icon icon-sun" xmlns="http://w3.org" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <path
+                                    d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41">
+                                </path>
+                            </svg>
+                            <svg class="icon icon-moon" xmlns="http://w3.org" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                            </svg>
+                            <div class="switch-knob"></div>
+                        </div>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="roadmap-header">
+            <h1>Career Roadmap: Product Manager</h1>
+        </div>
+        <div class="overview-box">
+            <strong>Core Overview:</strong> Defines product vision, prioritizes feature roadmaps, and aligns cross-functional engineering, design, and business teams.
+        </div>
+        <h3 class="section-heading">Core Skillsets </h3>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4>1) Strategy</h4>
+                <p>Product Vision, Market Research, Roadmapping</p>
+            </div>
+            <div class="skill-card">
+                <h4>2) Execution</h4>
+                <p>Agile, Scrum, PRD Writing, Backlog Grooming</p>
+            </div>
+            <div class="skill-card">
+                <h4>3) Analytics</h4>
+                <p>KPIs, A/B Testing, SQL, Funnel Metrics</p>
+            </div>
+            <div class="skill-card">
+                <h4>4) Soft Skills</h4>
+                <p>Stakeholder Alignment, Customer Discovery</p>
+            </div>
+        </div>
+        <h3 class="section-heading">Career Progression Tiers</h3>
+        <div class="tier-flow">
+            <div class="tier-node">Associate Product Manager</div>
+            <div class="tier-arrow">&rarr;</div>
+            <div class="tier-node">Senior Product Manager</div>
+            <div class="tier-arrow">&rarr;</div>
+            <div class="tier-node">VP of Product / CPO</div>
+        </div>
+        <h3 class="section-heading">Execution Learning Roadmap</h3>
+        <div class="timeline">
+            <div class="timeline-step">
+                <h4>1) Customer Discovery & Agile Fundamentals</h4>
+                <p>Master user interviews, problem framing, Scrum workflows, and writing PRDs.</p>
+            </div>
+            <div class="timeline-step">
+                <h4>2) Prioritization Frameworks & Product Metrics</h4>
+                <p>Apply RICE scoring, define North Star metrics, and ship Minimum Viable Products (MVPs).</p>
+            </div>
+            <div class="timeline-step">
+                <h4>3) Go-To-Market Strategy & Portfolio Scaling</h4>
+                <p>Lead cross-functional launches, optimize user retention, and manage multi-quarter roadmaps.</p>
+            </div>
+        </div>
+        <h3 class="section-heading">Top Learning Links</h3>
+        <ul class="links-list">
+            <li><a href="https://svpg.com" target="_blank">Silicon Valley Product Group (SVPG) Articles</a></li>
+            <li><a href="https://atlassian.com" target="_blank">Atlassian Product Management Guide</a></li>
+            <li><a href="https://roadmap.sh" target="_blank">Roadmap.sh Product Manager Vectors</a></li>
+        </ul>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section footer-brand">
+                <h3>ChoozCareer</h3>
+                <p>Helping students find their passion, one milestone at a time.</p>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#careers">Career Paths</a></li>
+                    <li><a href="#blog">Resources & Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-info" id="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:alphaxheroes@gmail.com">alphaxheroes@gmail.com</a></p>
+                <p>Hours: Mon - Fri, 9:00 AM - 5:00 PM</p>
+            </div>
+
+            <div class="footer-section footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to get the latest career insights.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" onclick="notify_me()">Join</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 ChoozCareer. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#privacy">Privacy Policy</a> |
+                <a href="#terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/Js/script.js">
+    </script>
+</body>
+
+</html>
