@@ -27,9 +27,9 @@ function updateSwitchUI(isDark) {
 
 function toggleTheme() {
     const rootElement = document.documentElement;
-    const setDark = rootElement.getAttribute('data-theme') !== 'dark';
-    localStorage.setItem('theme', setDark ? 'dark' : 'light');
-    updateSwitchUI(setDark);
+    const isDark = rootElement.getAttribute('data-theme') !== 'dark';
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    updateSwitchUI(isDark);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -38,5 +38,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function notify_me() {
-    alert("message has sent");
+    alert("message sent successfully");
 }
